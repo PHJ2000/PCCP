@@ -20,3 +20,6 @@ def solution(name, yearning, photo):
                         score+=yearning[k]
         answer.append(score)
     return answer
+
+
+#defaultdict을 활용한 성능 개선이 필요함
